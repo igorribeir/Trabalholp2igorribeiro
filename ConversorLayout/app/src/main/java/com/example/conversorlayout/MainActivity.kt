@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
             if(!dolares.isEmpty()&&!taxa.isEmpty()){
                 val reais = String.format("%.2f", dolares.toDouble() * taxa.toDouble())
-                binding.textResultado.text = "R$ " + reais
+                binding.textResultado.text = "IGOR RIBEIRO 1202" + reais
             }else{
                 Toast.makeText(applicationContext,"ERROUUU",Toast.LENGTH_LONG).show()
             }
